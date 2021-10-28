@@ -273,7 +273,7 @@ class _MainScreenState extends State<MainScreen> {
                           ),
                         )),
                     onTap: () {
-                      showQRCode(context);
+                      // showQRCode(context);
                     }),
                 GestureDetector(
                     child: Padding(
@@ -302,7 +302,7 @@ class _MainScreenState extends State<MainScreen> {
                           ),
                         )),
                     onTap: () {
-                      showQRCode(context);
+                      // showQRCode(context);
                     }),
               ],
             ),
