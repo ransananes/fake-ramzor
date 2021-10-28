@@ -59,17 +59,6 @@ class _SplashPageState extends State<SplashScreen> {
     );
   }
 
-  _getBackgroundColor() {
-    return Container(color: Colors.transparent //.withAlpha(120),
-        );
-  }
-
-  _getContent() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.start,
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
